@@ -4,7 +4,7 @@ public class dayone
 {
 public static void main(String[] args){
     System.out.print("hello user");
-    Scanner input=new reader(system in)
+    Scanner input =new Scanner(system.in);
 
 }
 
