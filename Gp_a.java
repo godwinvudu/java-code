@@ -41,6 +41,7 @@ public class Gp_a {
             while (midterm < 0 || midterm > 100) {
                 System.out.println("Invalid input! Score must be between 0 and 100.");
                 System.out.print("Re-enter midterm score: ");
+                
                 midterm = scanner.nextDouble();
             }
             
