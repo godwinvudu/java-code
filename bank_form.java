@@ -5,9 +5,15 @@ public class bank_form {
         try(Scanner scanner=new Scanner(System.in)){
         System.out.println("Welcome to adonis bank ltd");
       
-        System.out.println("What's your name?");
-        String name =scanner.nextLine();
-        System.out.println("hello"+ name);
+        System.out.println("Enter your first name?");
+        String first_name =scanner.nextLine();
+        System.out.println("Enter your surname:");
+        String second_name =scanner.nextLine();
+        
+        System.out.println("Thank you "+ first_name+" "+ second_name + " for trusting in adaonis bank ltd");
+        
+
+
        }
     }
     
