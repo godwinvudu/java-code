@@ -11,6 +11,9 @@ public class bank_form {
         String second_name =scanner.nextLine();
         
         System.out.println("Thank you "+ first_name+" "+ second_name + " for trusting in adaonis bank ltd");
+        String email=scanner.nextLine();
+        System.out.println("Enter your email:");
+        if email (!=)
 
 
 
