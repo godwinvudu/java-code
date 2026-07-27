@@ -11,17 +11,21 @@ public class bank_form {
         String second_name =scanner.nextLine();
         
         System.out.println("Thank you "+ first_name+" "+ second_name + " for trusting in adaonis bank ltd");
-        String email=scanner.nextLine();
+       
         System.out.println("Enter your email:");
+         String email=scanner.nextLine();
         if (email.contains("@") && email.contains(".") ){
             System.out.println("email is valid"); 
 
             if (email.endsWith("@gmail.com")) {
             System.out.println("email is valid");
         }  
-                if (email.endsWith("@yahoo.com")){
+                else if (email.endsWith("@yahoo.com")){
                     System.out.println("email is valid");
                 }
+                    else{
+                        System.out.println("email is invalid");
+                    }
         }
 
         }
@@ -31,4 +35,4 @@ public class bank_form {
        }
     }
     
-}
+
