@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class bank_form {
     public static void main( String[]args){
         try(Scanner scanner=new Scanner(System.in)){
-        System.out.println("Welcome to adonis bank ltd");
+        System.out.println("#######-Welcome to adonis bank ltd-#######");
       
         System.out.println("Enter your first name?");
         String first_name =scanner.nextLine();
@@ -11,7 +11,7 @@ public class bank_form {
         String second_name =scanner.nextLine();
         
         System.out.println("Thank you "+ first_name+" "+ second_name + " for trusting in adaonis bank ltd");
-        
+
 
 
        }
