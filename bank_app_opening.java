@@ -34,7 +34,7 @@ public class bank_app_opening {
         System.out.println("create password:");
          String password=scanner.nextLine();
          String specailcharacters="!@#$%^&*()_+=-:'?><,./~`'";
-        if ((password.length() >=10) && (password.contains(specailcharacters))){
+        if ((password.length() >=10) || (password.contains(specailcharacters))){
             System.out.println("re-enter password");
                 String re_password=scanner.nextLine();
             if(re_password.equals(password)){
