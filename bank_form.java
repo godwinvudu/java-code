@@ -13,7 +13,18 @@ public class bank_form {
         System.out.println("Thank you "+ first_name+" "+ second_name + " for trusting in adaonis bank ltd");
         String email=scanner.nextLine();
         System.out.println("Enter your email:");
-        if email (!=)
+        if (email.contains("@") && email.contains(".") ){
+            System.out.println("email is valid"); 
+
+            if (email.endsWith("@gmail.com")) {
+            System.out.println("email is valid");
+        }  
+                if (email.endsWith("@yahoo.com")){
+                    System.out.println("email is valid");
+                }
+        }
+
+        }
 
 
 
