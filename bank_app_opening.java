@@ -35,7 +35,10 @@ public class bank_app_opening {
                 String re_password=scanner.nextLine();
             if(re_password.equals(password)){
                 System.out.println("password accepted");
-            }
+
+            } 
+                else
+                    System.out.println("password does not match");
 
         }
         }
