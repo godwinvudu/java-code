@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //this is a java program replicating a bank form
-public class bank_form {
+public class bank_app_opening {
     public static void main( String[]args){
         try(Scanner scanner=new Scanner(System.in)){
         System.out.println("#######-Welcome to adonis bank ltd-#######");
@@ -27,7 +27,17 @@ public class bank_form {
                         System.out.println("email is invalid");
                     }
         }
+        System.out.println("create password:");
+         String password=scanner.nextLine();
+         String specailcharacters="!@#$%^&*()_+=-:'?><,./~`'";
+        if ((password.length() >=10) && (password.contains(specailcharacters))){
+            System.out.println("re-enter password");
+                String re_password=scanner.nextLine();
+            if(re_password.equals(password)){
+                System.out.println("password accepted");
+            }
 
+        }
         }
 
 
