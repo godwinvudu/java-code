@@ -18,10 +18,10 @@ public class bank_form {
             System.out.println("email is valid"); 
 
             if (email.endsWith("@gmail.com")) {
-            System.out.println("email is valid");
+            System.out.println("gmail account is valid");
         }  
                 else if (email.endsWith("@yahoo.com")){
-                    System.out.println("email is valid");
+                    System.out.println("yahoo account is valid");
                 }
                     else{
                         System.out.println("email is invalid");
