@@ -14,6 +14,7 @@ public class bank_app_opening {
        
         System.out.println("Enter your email:");
          String email=scanner.nextLine();
+        while(true){
         if (email.contains("@") && email.contains(".") ){
             System.out.println("email is valid"); 
 
@@ -27,6 +28,9 @@ public class bank_app_opening {
                         System.out.println("email is invalid");
                     }
         }
+    
+    
+
         System.out.println("create password:");
          String password=scanner.nextLine();
          String specailcharacters="!@#$%^&*()_+=-:'?><,./~`'";
@@ -48,4 +52,4 @@ public class bank_app_opening {
        }
     }
     
-
+}
