@@ -7,8 +7,18 @@ public class bank_app_opening {
       
         System.out.println("Enter your first name?");
         String first_name =scanner.nextLine();
+        while(first_name.isEmpty()){
+            System.out.println("invalid input");
+        
+        System.out.println("Enter your first name?");
+         String first_name =scanner.nextLine();
+        }
         System.out.println("Enter your surname:");
         String second_name =scanner.nextLine();
+        while(second_name.isEmpty()){
+            System.out.println("invalid second name");
+        break;
+        }
         
         System.out.println("Thank you "+ first_name+" "+ second_name + " for trusting in adaonis bank ltd");
        
