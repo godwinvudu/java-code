@@ -10,17 +10,26 @@ public class bank_app_opening {
         while(first_name.isEmpty()){
             System.out.println("invalid input");
         
-        System.out.println("Enter your first name?");
-         String first_name =scanner.nextLine();
+        System.out.println("Enter your first name?")
+        ;
+         String new_first_name =scanner.nextLine();
+        
         }
+        
         System.out.println("Enter your surname:");
         String second_name =scanner.nextLine();
+        
         while(second_name.isEmpty()){
             System.out.println("invalid second name");
+
+        System.out.println("Enter your surname:");
+
+            String new_second_name =scanner.nextLine();
+        
         break;
         }
         
-        System.out.println("Thank you "+ first_name+" "+ second_name + " for trusting in adaonis bank ltd");
+        System.out.println("Thank you "+ (first_name)+" "+ second_name + " for trusting in adaonis bank ltd");
        
         System.out.println("Enter your email:");
          String email=scanner.nextLine();
