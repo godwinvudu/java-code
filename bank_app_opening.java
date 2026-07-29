@@ -39,11 +39,13 @@ public class bank_app_opening {
             email=scanner.nextLine();
 
         }
-        while(email.contains("@") ||!email.contains(".")){
+        while(email.contains("@")&&!email.contains(".")&&!email.contains("com")){
             System.out.println("email is invalid.must countain");
             System.out.println("enter a valid email: ");
             email=scanner.nextLine();
         }
+        
+
         
         }
     }
