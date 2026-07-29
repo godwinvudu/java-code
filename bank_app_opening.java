@@ -45,8 +45,10 @@ public class bank_app_opening {
             email=scanner.nextLine();
         }
         
-
+        System.out.println("Enter password:");
+        String password =scanner.nextLine();
         
+
         }
     }
     
