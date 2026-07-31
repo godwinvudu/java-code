@@ -39,13 +39,13 @@ public class bank_app_opening {
         
         System.out.println("Thank you "+ (first_name)+" "+ (second_name) + " for trusting in adaonis bank ltd");
        //email validation block
-        System.out.println("Enter your email:");
+        System.out.println("Enter your email(only google mail):");
         String email=scanner.nextLine();
         //i'm not gonna lie this semester is cooking me
         
         
         while(!email.toLowerCase().endsWith("@gmail.com")){
-            System.out.println("email is invalid ");
+            System.out.println("email is invalid(only google mail is allowed)) ");
             System.out.println("enter a valid email: ");
             email=scanner.nextLine();
         
