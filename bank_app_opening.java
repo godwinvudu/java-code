@@ -30,7 +30,8 @@ public class bank_app_opening {
 
         System.out.println("enter your age :");
         int age=scanner.nextInt();
-        if (age>16){
+        scanner.nextLine();
+        if (age<16){
             System.out.println("you're too young");
             System.exit(1);
         }
