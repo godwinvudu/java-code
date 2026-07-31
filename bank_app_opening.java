@@ -49,9 +49,7 @@ public class bank_app_opening {
         String password =scanner.nextLine();
         while(password.trim().isEmpty()){
             System.out.println("pasword should not be empty");
-
-
-        }
+     }
         
 
         }
