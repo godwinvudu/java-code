@@ -32,7 +32,7 @@ public class bank_app_opening {
        
         System.out.println("Enter your email:");
         String email=scanner.nextLine();
-        
+        //i'm not gonna lie this semester is cooking me
         while(email.trim().isEmpty()){
             System.out.println("invalid email");
             System.out.println("Enter email: ");
