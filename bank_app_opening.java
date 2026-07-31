@@ -43,13 +43,8 @@ public class bank_app_opening {
         String email=scanner.nextLine();
         //i'm not gonna lie this semester is cooking me
         
-        while(email.trim().isEmpty()){
-            System.out.println("invalid email");
-            System.out.println("Enter email:(***google mail only****) ");
-            email=scanner.nextLine();
-
-        }
-        while(!email.contains("@") || !email.contains(".") || !email.contains("com")||!email.contains("gmail")){
+        
+        while(!email.toLowerCase().endsWith("@gmail.com")){
             System.out.println("email is invalid ");
             System.out.println("enter a valid email: ");
             email=scanner.nextLine();
