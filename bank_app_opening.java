@@ -59,6 +59,12 @@ public class bank_app_opening {
             password=scanner.nextLine();
         
         }
+        while (password.length()<7){
+            System.out.println("password should not be less than 7 characters ");
+            System.out.println("Enter password");
+            password=scanner.nextLine();
+
+        }
 
         
 
