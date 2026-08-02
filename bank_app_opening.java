@@ -63,7 +63,6 @@ public class bank_app_opening {
             System.out.println("password should not be less than 7 characters ");
             System.out.println("Enter password");
             password=scanner.nextLine();
-
         }
 
         
