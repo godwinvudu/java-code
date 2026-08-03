@@ -53,17 +53,13 @@ public class bank_app_opening {
         //password validation block
         System.out.println("Enter password:");
         String password =scanner.nextLine();
-        while(password.trim().isEmpty()){
-            System.out.println("pasword should not be empty");
+        while(password.trim().isEmpty() &&(password.length()<7)){
+            System.out.println("pasword is invalid");
             System.out.println("Enter a valid password"); 
             password=scanner.nextLine();
         
         }
-        while (password.length()<7){
-            System.out.println("password should not be less than 7 characters ");
-            System.out.println("Enter password");
-            password=scanner.nextLine();
-        }
+        
 
         
 
