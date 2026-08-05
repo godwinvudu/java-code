@@ -50,6 +50,7 @@ public class bank_app_opening {
             email=scanner.nextLine();
         
         }
+        //still working on it
         //password validation block
         System.out.println("Enter password:");
         String password =scanner.nextLine();
