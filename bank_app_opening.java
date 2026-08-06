@@ -35,7 +35,7 @@ public class bank_app_opening {
             System.out.println("you're too young to open an account");//things that we can't say in hollywood lol
             System.exit(1);
         }
-
+//i'm ill
         
         System.out.println("Thank you "+ (first_name)+" "+ (second_name) + " for trusting in adaonis bank ltd");
        //email validation block
