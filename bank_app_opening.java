@@ -48,7 +48,7 @@ public class bank_app_opening {
             System.out.println("email is invalid(only google mail is allowed)) ");
             System.out.println("enter a valid email: ");
             email=scanner.nextLine();
-        
+        //k
         }
         //still working on it
         //password validation block
