@@ -4,6 +4,8 @@ public class passquestion {
 public static void main(String[]args){
     System.out.println("(GOOD MORNIG)");
 }
+
 }
+
 
  
